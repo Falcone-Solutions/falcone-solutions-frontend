@@ -35,7 +35,7 @@ export default function Home() {
             href="https://t.me/andreasfalcone"
             style={{ alignItems: "center", display: "flex" }}
           >
-            <NextImage src="/email.png" alt="Email" width={50} height={50} />
+            <NextImage src="email.png" alt="Email" width={50} height={50} />
           </Link>
 
           <Link
