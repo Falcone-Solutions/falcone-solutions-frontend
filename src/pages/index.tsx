@@ -84,7 +84,7 @@ export default function Home() {
         justifyContent: "center",
       }}
     >
-      <Logo src="/logo.png" width={1000} height={150} alt="Brand Logo" />
+      <Logo src="/static/logo.png" width={1000} height={150} alt="Brand Logo" />
       <div
         style={{
           opacity: ready ? 1 : 0,
