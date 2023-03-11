@@ -35,7 +35,12 @@ export default function Home() {
             href="https://t.me/andreasfalcone"
             style={{ alignItems: "center", display: "flex" }}
           >
-            <NextImage src="email.png" alt="Email" width={50} height={50} />
+            <NextImage
+              src="/static/email.png"
+              alt="Email"
+              width={50}
+              height={50}
+            />
           </Link>
 
           <Link
@@ -46,7 +51,7 @@ export default function Home() {
             }}
           >
             <NextImage
-              src="/telegram.png"
+              src="/static/telegram.png"
               alt="Telegram"
               width={50}
               height={50}
@@ -58,7 +63,7 @@ export default function Home() {
       return (
         <NextImage
           alt="Contact Mail"
-          src="/contact-mail.png"
+          src="/static/contact-mail.png"
           width={50}
           height={50}
           color="#1D2532"
